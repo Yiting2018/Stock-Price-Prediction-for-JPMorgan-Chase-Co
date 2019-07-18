@@ -3,13 +3,7 @@ layout: default
 ---
 # **Stock Price Prediction for JPMorgan Chase & Co**
 
-<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/0.png" width="500" height = "100" alt="" />
-
 Predicted the stock price of JPMorgan Chase & Co at 12/31/2019. Performed **Time Series, Linear Regression and Random Forest Regression models**.
-
-<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/stock.png" width="900" height = "500" alt="" />
-
-<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/pred.png" width="800" height = "500" alt="" />
 
 Due to the complications of the date change, I used the beginning of 2020 (01/01/2020) to predict the stock price at the end of 2019 (12/31/2019). Since the variables that formed the model are interest rate, GDP, unemployment rate, CPI, etc., which can hardly change in one day, I believe these data would not interfere much for my final prediction.
 
@@ -23,11 +17,7 @@ The datasets I used are as followings:
 * [Unemployment Rate](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/dataset/UNRATE.csv) - [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/UNRATE)
 * Consumer Interest - [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/CPIAUCSL)
 
-During the process, I noticed that some of the variables have very strong correlations.
-
-<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/1.png" width="500" height = "500" alt="" />
-
-In order to avoid multicollinearities, I only used interest rate, unemployment rate, and GPD.
+During the process, I noticed that some of the variables have very strong correlations, in order to avoid multicollinearities, I only used interest rate, unemployment rate, and GPD.
 
 ## Code
 Please see the [Jupyter Notebook](http://htmlpreview.github.io/?https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/docs/Stock_Prediction.html) for details.
