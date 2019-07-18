@@ -7,7 +7,7 @@ layout: default
 
 Predicted the stock price of JPMorgan Chase & Co at 12/31/2019. Performed **Time Series, Linear Regression and Random Forest Regression models**.
 
-<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/stock.png" width="1000" height = "300" alt="" />
+<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/stock.png" width="1000" height = "500" alt="" />
 
 <img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/pred.png" width="800" height = "500" alt="" />
 
@@ -31,8 +31,6 @@ In order to avoid multicollinearities, I only used interest rate, unemployment r
 
 ## Code
 Please see the [Jupyter Notebook](http://htmlpreview.github.io/?https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/docs/Stock_Prediction.html) for details.
-
-### [Go Back to Homepage](https://yiting2018.github.io)
 
 ## Quant & Qual Narratives
 #### Qual Narrative [Download PDF](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/raw/master/docs/Qual%20Narrative.pdf)
