@@ -3,9 +3,13 @@ layout: default
 ---
 # **Stock Price Prediction for JPMorgan Chase & Co**
 
+<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/0.png" width="1000" height = "300" alt="" />
+
 Predicted the stock price of JPMorgan Chase & Co at 12/31/2019. Performed **Time Series, Linear Regression and Random Forest Regression models**.
 
-<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/0.png" width="1000" height = "300" alt="" />
+<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/stock.png" width="1000" height = "300" alt="" />
+
+<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/pred.png" width="800" height = "500" alt="" />
 
 Due to the complications of the date change, I used the beginning of 2020 (01/01/2020) to predict the stock price at the end of 2019 (12/31/2019). Since the variables that formed the model are interest rate, GDP, unemployment rate, CPI, etc., which can hardly change in one day, I believe these data would not interfere much for my final prediction.
 
@@ -30,8 +34,8 @@ Please see the [Jupyter Notebook](http://htmlpreview.github.io/?https://github.c
 
 ### [Go Back to Homepage](https://yiting2018.github.io)
 
-## Slides
-#### [Download PDF](https://github.com/Yiting2018/Recommendations-for-Food/raw/master/documents/Recipes_Rating_System.pdf)
-
+## Quant & Qual Narratives
+#### Qual Narrative [Download PDF](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/raw/master/docs/Qual%20Narrative.pdf)
+#### Quant Narrative [Download PDF](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/raw/master/docs/Quant%20Narrative.pdf)
 
 ### [Go Back to Homepage](https://yiting2018.github.io)
