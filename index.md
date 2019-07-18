@@ -3,11 +3,11 @@ layout: default
 ---
 # **Stock Price Prediction for JPMorgan Chase & Co**
 
-<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/0.png" width="1700" height = "352" alt="" />
+<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/0.png" width="500" height = "100" alt="" />
 
 Predicted the stock price of JPMorgan Chase & Co at 12/31/2019. Performed **Time Series, Linear Regression and Random Forest Regression models**.
 
-<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/stock.png" width="1000" height = "500" alt="" />
+<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/stock.png" width="900" height = "500" alt="" />
 
 <img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/pred.png" width="800" height = "500" alt="" />
 
@@ -25,7 +25,7 @@ The datasets I used are as followings:
 
 During the process, I noticed that some of the variables have very strong correlations.
 
-<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/1.png" width="800" height = "800" alt="" />
+<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/1.png" width="500" height = "500" alt="" />
 
 In order to avoid multicollinearities, I only used interest rate, unemployment rate, and GPD.
 
