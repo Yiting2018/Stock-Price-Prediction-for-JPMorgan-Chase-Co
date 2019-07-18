@@ -5,23 +5,25 @@ layout: default
 
 Predicted the stock price of JPMorgan Chase & Co at 12/31/2019. Performed **Time Series, Linear Regression and Random Forest Regression models**.
 
+<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/0.png" width="1000" height = "300" alt="" />
+
 Due to the complications of the date change, I used the beginning of 2020 (01/01/2020) to predict the stock price at the end of 2019 (12/31/2019). Since the variables that formed the model are interest rate, GDP, unemployment rate, CPI, etc., which can hardly change in one day, I believe these data would not interfere much for my final prediction.
 
 Furthermore, because most of my indicators are recorded monthly, I used interpolation to better fit the model. Since all of them are rates, I applied the same number to the entire month/quarter. 
 
 The datasets I used are as followings:
-* Historical Stock Price [source: Yahoo Finance](https://finance.yahoo.com/quote/JPM/history?p=JPM)
-* GDP [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/CPIAUCSL)
-* Interest Rate [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/FEDFUNDS)
-* Inflation Rate [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/T10YIE)
-* Unemployment Rate [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/UNRATE)
+* [Historical Stock Price](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/dataset/JPM.csv) [source: Yahoo Finance](https://finance.yahoo.com/quote/JPM/history?p=JPM)
+* [GDP](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/dataset/GDP.csv) [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/CPIAUCSL)
+* [Interest Rate](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/dataset/Effective%20Federal%20Funds%20Rate.csv) [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/FEDFUNDS)
+* [Inflation Rate](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/dataset/Inflation%20Rate.csv) [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/T10YIE)
+* [Unemployment Rate](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/dataset/UNRATE.csv) [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/UNRATE)
 * Consumer Interest [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/CPIAUCSL)
 
-In this group project, our goal is to recommend food for different users by predicting ratings for food recipes based on the rating history of each users. We used the dataset from Kaggle: [Project Dataset: foodrecsysv1](https://www.kaggle.com/elisaxxygao/foodrecsysv1).
+During the process, I noticed that some of the variables have very strong correlations.
 
-During the process, we cleaned and manipulated the data, identified the most important variables, came up with our own features, and build the prediction model using KNN. We also applied GridSearch in order to get the optimal combination for our model with the highest prediction accuracy.
+<img src="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/1.png" width="800" height = "800" alt="" />
 
-The one of the unique features about our model is it can change throughout time. **The model itself is not fixed.** People's preferences may change, so should the prediction models.
+In order to avoid multicollinearities, I only used interest rate, unemployment rate, and GPD.
 
 ## Code
 Please see the [Jupyter Notebook](http://htmlpreview.github.io/?https://github.com/Yiting2018/Recommendations-for-Food/blob/gh-pages/documents/Recipe_rating_prediction.html) for details.
@@ -30,19 +32,6 @@ Please see the [Jupyter Notebook](http://htmlpreview.github.io/?https://github.c
 
 ## Slides
 #### [Download PDF](https://github.com/Yiting2018/Recommendations-for-Food/raw/master/documents/Recipes_Rating_System.pdf)
-<img src="./documents/PowerPoint/1.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/2.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/3.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/4.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/5.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/6.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/7.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/8.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/9.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/10.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/11.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/12.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/13.jpg" width="1000" height = "400" alt="" />
-<img src="./documents/PowerPoint/14.jpg" width="1000" height = "400" alt="" />
+
 
 ### [Go Back to Homepage](https://yiting2018.github.io)
