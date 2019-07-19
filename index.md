@@ -26,4 +26,6 @@ Please see the [Jupyter Notebook](http://htmlpreview.github.io/?https://github.c
 #### Qual Narrative [Download PDF](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/raw/master/docs/Qual%20Narrative.pdf)
 #### Quant Narrative [Download PDF](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/raw/master/docs/Quant%20Narrative.pdf)
 
-### [Go Back to Homepage](https://yiting2018.github.io)
+<br>
+
+## [Go Back to Homepage](https://yiting2018.github.io)
