@@ -9,6 +9,8 @@ Due to the complications of the date change, I used the beginning of 2020 (01/01
 
 Furthermore, because most of my indicators are recorded monthly, I used interpolation to better fit the model. Since all of them are rates, I applied the same number to the entire month/quarter. 
 
+<img herf="https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/img/0.png">
+
 The datasets I used are as followings:
 * [Historical Stock Price](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/dataset/JPM.csv) - [source: Yahoo Finance](https://finance.yahoo.com/quote/JPM/history?p=JPM)
 * [GDP](https://github.com/Yiting2018/Stock-Price-Prediction-for-JPMorgan-Chase-Co/blob/master/dataset/GDP.csv) - [source: fred.stlouisfed.org](https://fred.stlouisfed.org/series/CPIAUCSL)
